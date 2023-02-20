@@ -1,0 +1,123 @@
+body{
+    background-image: url(https://preview.redd.it/y08vc9vx9c471.png?width=1080&format=png&auto=webp&s=bfdab6ba22e37ea6b1ddf318a2d9ac90ee235bc1);
+    /* background-repeat:;  */
+    background-attachment: fixed;
+    padding: 0;
+    /* color: rgb(32,24,130); */
+    /* sackground-color: #aaa; */
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align:left;
+    top: auto;
+    /* margin: 1em 1em; */
+    font-family: "Gill Sans", serif;
+    background: rgb(50, 50, 50);
+    color: #fff;
+}
+
+.main-title,
+.name-title {
+    margin: 0;
+    margin-left: 10%;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.name-title {
+    text-transform: capitalize;
+    font-weight: 300;
+    color: rgb(213, 54, 54);
+}
+
+.content-box{
+    background-color: rgba(255, 0, 0, 0.77);
+    margin: 5em 5em 5em 5em;
+}
+
+.content-subhead {
+    font-family: Courier, serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0.4em 0;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    
+    /* background-color: inherit;
+    cursor: pointer; */
+
+}
+
+.content {
+    padding: 1.5em 2em 0;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+.post-avatar {
+    border-radius: 100px;
+    float: right;
+    margin-left: 1em;
+    margin-right: 5em;
+}
+.post-content {
+    font-family: "Gill Sans", sans-serif;
+    font-size: large;
+    color: rgb(235, 235, 235);
+    line-height: 1.8em;
+    display: none;
+}
+
+.text_button{
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+
+    font-family: Courier, serif;
+    text-transform: uppercase;
+    color: rgb(255, 251, 251);
+    padding: 0.4em 0;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.text_button:hover {
+    background: rgba(238, 238, 238, 0.606);
+}
+
+.button{
+    background-color: #3f3f3f;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 7em;
+}
+
+.button:hover {
+    background-color: rgb(125, 154, 242);
+}
+
+.center {
+    margin: auto;
+    width: 485px;
+    /* border: 5px solid #FFFF00; */
+    padding: 10px;
+}

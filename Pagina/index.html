@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laboratorio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script type="text/javascript">
+	function toggleView(id) {
+		var x = document.getElementById(id);
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	}
+ </script>
+
+<body>
+	<div id="layout" class="content-box">
+		<div class="header">
+			
+			<br>
+			<br>
+			
+			<br>
+
+			<h1 class="main-title">Laboratorio 2 </h1>
+			<h2	class="name-title">Administracion de Redes</h2> 
+			<br>
+			<br>
+			<br> 
+		</div>
+		<div class="content">
+			<h1 class="content-subhead">
+			<button class="text_button" onclick="toggleView('jardin')">Julian Felipe Pulido</button>
+			</h1>
+			<section class="post">
+				<div class="post-content" id="jardin">
+					<p>
+						Julian Felipe Pulido
+					</p>
+				</div>
+			</section>
+		</div>
+		<div class="content">
+			<h1 class="content-subhead"><button class="text_button" onclick="toggleView('primaria')">Joseph Daniel Mantilla</button></h1>
+			<section class="post">
+				<div class="post-content" id="primaria">
+					<p>
+						Joseph Daniel Mantilla
+					</p>
+				</div>
+			</section>
+		</div>
+		<div class="content">
+			<h1 class="content-subhead"><button class="text_button" onclick="toggleView('bachillerato')">Juan Diego Garcia</button>
+			</h1>
+			<section class="post">
+				<div class="post-content" id="bachillerato">
+					<p>
+						Juan Diego Garcia
+					</p>
+				</div>
+			</section>
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
